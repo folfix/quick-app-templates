@@ -1,4 +1,5 @@
 {
+  "name": "Maven, Java 8, Spring Boot",
   "variables": [
     {
       "id": "service-name",
