@@ -1,13 +1,13 @@
-package com.examplero.gruppo.exampleroartifacto;
+package {{java-package-group}};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExampleroArtifactoApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ExampleroArtifactoApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }

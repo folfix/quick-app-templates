@@ -1,1 +1,26 @@
-{}
+{
+  "variables": [
+    {
+      "id": "service-name",
+      "name": "Service name (Maven artifact)",
+      "description": "Service (Maven artifact) name used in various places"
+    },
+    {
+      "id": "java-package-group",
+      "name": "Java Package (Maven group)",
+      "description": "Java package (Maven group) used in classes"
+    }
+  ],
+  "directoryPaths": [
+    {
+      "fromVariable": "java-package-group",
+      "separator": "."
+    }
+  ],
+  "justCopy": [
+    ".gitignore",
+    "mvnw",
+    "mvnw.cmd",
+    ".mvn/"
+  ]
+}
