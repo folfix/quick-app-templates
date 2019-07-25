@@ -1,0 +1,30 @@
+{
+  "name": "Gradle, Java 8, Spring Boot",
+  "description": "Backend project that uses Gradle, Java 8, Spring Boot",
+  "tags": ["backend", "gradle", "java", "spring"],
+  "variables": [
+    {
+      "id": "service-name",
+      "name": "Service name (artifact name)",
+      "description": "Service (artifact name) name used in various places"
+    },
+    {
+      "id": "java-package-group",
+      "name": "Java Package (group)",
+      "description": "Java package (group) used in classes"
+    }
+  ],
+  "directoryPaths": [
+    {
+      "fromVariable": "java-package-group",
+      "separator": "."
+    }
+  ],
+  "justCopy": [
+    ".gitignore",
+    "gradle/",
+    "gradlew",
+    "gradlew.bat",
+    "settings.gradle"
+  ]
+}
