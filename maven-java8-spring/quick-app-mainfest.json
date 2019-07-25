@@ -12,6 +12,12 @@
       "id": "java-package-group",
       "name": "Java Package (Maven group)",
       "description": "Java package (Maven group) used in classes"
+    },
+    {
+      "id": "spring-boot-version",
+      "name": "Spring Boot Version",
+      "description": "Version of Spring Boot framework",
+      "defaultValue": "2.1.6.RELEASE"
     }
   ],
   "directoryPaths": [
