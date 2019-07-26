@@ -11,7 +11,7 @@
     <groupId>{{java-package-group}}</groupId>
     <artifactId>{{service-name}}</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>examplero-artifacto</name>
+    <name>{{service-name}}</name>
     <description>My fancy project in Java 8 and Spring Boot</description>
 
     <properties>

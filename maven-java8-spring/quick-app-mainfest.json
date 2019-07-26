@@ -1,7 +1,7 @@
 {
   "name": "Maven, Java 8, Spring Boot",
   "description": "Backend project that uses Maven, Java 8, Spring Boot",
-  "tags": ["backend", "maven", "java", "spring boot"],
+  "tags": ["backend", "maven", "java", "spring"],
   "variables": [
     {
       "id": "service-name",
