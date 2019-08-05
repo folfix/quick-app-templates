@@ -20,10 +20,10 @@
       "defaultValue": "2.1.6.RELEASE"
     }
   ],
-  "directoryPaths": [
+  "pathsOverrides": [
     {
       "fromVariable": "java-package-group",
-      "separator": "."
+      "directoriesSeparator": "."
     }
   ],
   "justCopy": [

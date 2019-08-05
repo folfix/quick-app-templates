@@ -14,10 +14,10 @@
       "description": "Java package (group) used in classes"
     }
   ],
-  "directoryPaths": [
+  "pathsOverrides": [
     {
       "fromVariable": "java-package-group",
-      "separator": "."
+      "directoriesSeparator": "."
     }
   ],
   "justCopy": [
