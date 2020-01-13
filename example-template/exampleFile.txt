@@ -1,0 +1,3 @@
+Example content.
+Input for `example-variable` variable is: {{example-variable}}
+Input for `example-variable-with-default` variable is: {{example-variable-with-default}}

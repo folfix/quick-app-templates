@@ -1,0 +1,4 @@
+This file will not be processed by Mustache.
+Following variables will not be fulfilled:
+{{example-variable}}
+{{example-variable-with-default}}

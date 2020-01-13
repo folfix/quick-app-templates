@@ -1,0 +1,27 @@
+{
+  "name": "Example template",
+  "description": "Example template which shows how Quick App works.",
+  "tags": ["example-tag", "QuickApp"],
+  "variables": [
+    {
+      "id": "example-variable",
+      "name": "Example variable",
+      "description": "Example variable used also as pathOverrider, input value with '.' to test directory structure generation"
+    },
+    {
+      "id": "example-variable-with-default",
+      "name": "Example variable with default value",
+      "description": "Example variable with pre-defined default value",
+      "defaultValue": "defaultValuent"
+    }
+  ],
+  "pathsOverrides": [
+    {
+      "fromVariable": "example-variable",
+      "directoriesSeparator": "."
+    }
+  ],
+  "justCopy": [
+    "copiedFile.txt"
+  ]
+}

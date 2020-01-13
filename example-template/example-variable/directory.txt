@@ -1,0 +1,2 @@
+This file will be placed in directory structure.
+But only if `example-variable` variable's input will contain '.' separated value.
